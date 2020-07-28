@@ -7,8 +7,14 @@
   align-items: center;
 }
 
+.zero {
+  font-size: 38vw;
+  text-align: center;
+  margin: 0;
+}
+
 .fucks {
-  font-size: 20vw;
+  font-size: 30vw;
   text-align: center;
   margin: 0;
 }

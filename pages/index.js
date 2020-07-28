@@ -18,7 +18,8 @@ export default function Home() {
           }}
         />
       </Head>
-      <h1 className={styles.fucks}>ZERO FUCKS</h1>
+      <h1 className={styles.zero}>ZERO</h1>
+      <h1 className={styles.fucks}>FUCKS</h1>
     </div>
   );
 }

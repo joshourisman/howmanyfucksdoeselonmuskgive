@@ -18,7 +18,7 @@ export default function Home() {
           }}
         />
       </Head>
-      <h1 style={{ fontSize: '20vw', textAlign: 'center' }}>ZERO FUCKS</h1>
+      <h1 className={styles.fucks}>ZERO FUCKS</h1>
     </div>
   );
 }

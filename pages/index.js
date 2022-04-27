@@ -3,12 +3,14 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>How many fucks does Elon Musk give?</title>
       </Head>
-      <h1 className={styles.zero}>ZERO</h1>
-      <h1 className={styles.fucks}>FUCKS</h1>
+      <svg viewBox="0 8 50 28">
+        <text x="0" y="20">ZERO</text>
+        <text x="0" y="35">FUCKS</text>
+      </svg>
     </div>
   );
 }
